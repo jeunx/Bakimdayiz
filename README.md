@@ -1,2 +1,6 @@
 # Bakimdayiz
-PHP 7.0 ve MySQL kullanılarak yazılmış, açık kaynak kodlu bakım modu.
+## Türkçe
+Genel kullanım amacı Habbo Retro'lar için olsada Habbo veya Habbo Retrolar ile bir bağlantısı yok.
+
+## English
+Coming soon, maybe.
