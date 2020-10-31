@@ -10,21 +10,20 @@ $Bakimdayiz->checkAllTime();
 <Html lang="tr-TR">
 	<Head>
 		<title>HabJet Hotel ~ Yeniden HabJet!</title>
-    	<meta charset="UTF-8">
-    	<meta name="author" content="Jeunx">
-    	<meta name="viewport" content="width=device-width, initial-scale=1">
-    	<meta name="description" content="Habbo Hotel - Freunde treffen, Spaß haben und berühmt werden.">
-    	<meta name="keywords" content="Habbo Hotel, virtuell, Welt, social network, gratis, taler, retro, community, avatar, chat, online, teen, Rollenspiel, anmelden, sozial, Gruppen, Foren, sicher, spielen, games, online, Freunde, teens, rares, rare Möbel, sammeln, erstellen, sammeln, treffen, Möbel, furni, Haustiere, Raum erstellen, teilen, Ausdruck, Badges, Treffpunkt, Musik, Stars, Starchats, HCs, mmo, mmorpg, massiv multiplayer">
-    	<meta name="title" content="HabJet Hotel">
-    	<meta name="language" content="tr-TR">
-    	<meta name="robots" content="index, follow">
-
-    	<!--- Styles --->
-        <Link rel="icon" href="Assets/Img/favicon.png" />
-    	<link rel="stylesheet" href="//fonts.googleapis.com/css?family=Montserrat:400,700%7COpen+Sans:300,300i,400,400i,600,600i,700,800" />
-    	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous" />
+    		<meta charset="UTF-8" />
+    		<meta name="title" content="HabJet Hotel" />
+    		<meta name="language" content="tr-TR" />
+		<meta name="author" content="Jeunx" />
+    		<meta name="viewport" content="width=device-width, initial-scale=1" />
+    		<meta name="description" content="habjet hotel" />
+    		<meta name="keywords" content="habjet hotel" />
+    		<meta name="robots" content="index, follow">
+    		<!--- Styles --->
+        	<Link rel="icon" href="Assets/Img/favicon.png" />
+    		<link rel="stylesheet" href="//fonts.googleapis.com/css?family=Montserrat:400,700%7COpen+Sans:300,300i,400,400i,600,600i,700,800" />
+    		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous" />
 		<link rel="stylesheet" href="Assets/CSS/animate.min.css" />
-    	<link rel="stylesheet" href="Assets/CSS/Style.css?v=JE<?=time();?>" />
+    		<link rel="stylesheet" href="Assets/CSS/Style.css?v=<?=time();?>" />
 	</Head>
 	<Body onload="loadingMain()">
 		<Div id="loader">
@@ -46,7 +45,7 @@ $Bakimdayiz->checkAllTime();
         		<button id="Stats" class="play">Tıklayın</button>
     		</Div>
     		<Div id="Buttons">
-				<a class="discord animated infinite wobble" href="#1" target="_blank" style="margin-left:5px;">
+			<a class="discord animated infinite wobble" href="#1" target="_blank" style="margin-left:5px;">
 	        		<i style="margin: 18px 18px;" class="fab fa-discord"></i>
     			</a>
     			<a class="discord animated infinite wobble" href="#2" target="_blank" style="margin-left:5px;">
@@ -103,6 +102,6 @@ $Bakimdayiz->checkAllTime();
         <!--- Scripts --->
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
         <Script src="https://cdnjs.cloudflare.com/ajax/libs/limonte-sweetalert2/8.11.8/sweetalert2.all.min.js"></Script>
-        <script src="Assets/JS/Jeunx.js?v=JE<?=time();?>"></script> 
+        <script src="Assets/JS/Bakimdayiz.API.js"></script> 
 	</Body>
 </Html>
