@@ -5,9 +5,9 @@ Genel kullanım amacı H* Retrolar için olsada yazılım değiştirilip, özgü
 
 ## Gereksinimler
 ```
-* PHP 5.6 [7.0 Önerilir]
-* MySQL 5.0+ [5.5 Önerilir]
-* Web Sunucusu [IIS Önerilir]
+* PHP 5.6 (7.0 Önerilir)
+* MySQL 5.0+ (5.5 Önerilir)
+* Web Sunucusu (IIS Önerilir)
 ```
 
 ## Kurulum
@@ -35,9 +35,12 @@ private $Config = array(
 Şuanlık yok.
 
 ## Öneri, İstek, Şikayet
-- [x] Öneri, İstek ve Şikayetlerinizi buradan veya başka herhangi bir platformandan üzerinden iletebilirsiniz.
-- [x] Öneri hakkındaki tercihim, denedikten ve elde edilir bir sonuç elde ettikten sonra detayları ve test amaçlı kullandığınız kodları göndermeniz.
-- [x] İstekler ise erken veya geç bir şekilde cevaplanabilir, kabul edilebilir veya reddedilebilir.
+- Öneri, İstek ve Şikayetlerinizi buradan veya başka herhangi bir platformandan üzerinden iletebilirsiniz.
+- Öneri hakkındaki tercihim, denedikten ve elde edilir bir sonuç elde ettikten sonra detayları ve test amaçlı kullandığınız kodları göndermeniz.
+- İstekler ise erken veya geç bir şekilde cevaplanabilir, kabul edilebilir veya reddedilebilir.
+
+## Emeği Geçenler:
+- Mehmet Sönmez (@Jeunx)
 
 ## Lisanslama
 Bu proje açık kaynak kodludur ve MIT Lisansı altında dağıtılmaktadır, istediğiniz şekilde özgürce kullanabilirsiniz.
