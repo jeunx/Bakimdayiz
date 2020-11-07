@@ -27,9 +27,15 @@ Class Bakimdayiz{
 		return $Connection;
     }
 
-    function __construct(){
+   function __construct(){
+		// Veritabanı
     	$this->DB = $this->Connect();
 		$this->Config = null;
+		
+		// Veritabanına uygun olan Zaman formatı.
+		$this->TimeFormat = 'Y-m-d H:i:s'; 
+		
+		// Kullanıcı Verileri
 		$this->User = json_decode(json_encode(
 			Array(
 				'IP' => $this->getUserIP(),
@@ -38,7 +44,6 @@ Class Bakimdayiz{
 			),
 			False
 		));
-		$this->TimeFormat = "Y-m-d H:i:s"; // Veritabanına uygun olan Zaman formatı.
     }
 
 	// IP Adresi bulma, Cloudflare, Proxy vs. bypass edip gerçek ip adresini alır
